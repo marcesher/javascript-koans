@@ -103,6 +103,7 @@ describe("About Objects", function () {
         return "This circle has a radius of: " + this.radius;
       };
     
+	//console.log(Circle.prototype);
       expect(simpleCircle.describe()).toBe('This circle has a radius of: 10');
       expect(colouredCircle.describe()).toBe('This circle has a radius of: 5');
   });
